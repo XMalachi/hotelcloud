@@ -1,0 +1,28 @@
+.header{
+    text-align: center;
+}
+.searchRooms{
+    padding: 10px 100px;
+    margin: 20px 0;
+}
+.searchRooms h2{
+    font-size: 3em;
+}
+
+.searchArea{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+select{
+    width: 13rem;
+    padding: 5px 2px;
+    border: 1px solid silver;
+
+}
+.searchBySize input {
+    width: 4rem;
+    border-radius: 2px;
+    border: 1px solid silver;
+}

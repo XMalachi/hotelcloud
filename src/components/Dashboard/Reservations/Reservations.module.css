@@ -1,0 +1,59 @@
+.reservations{
+    /* background-color: rgba(252, 167, 88, 0.479); */
+    color: rgb(42, 57, 83);
+    border-radius: 30px;
+    padding: 0px 30px;
+    /* width: 40%; */
+}
+
+.reservations .reservationHeader h4{
+    text-transform: uppercase;
+    margin-bottom: 0;
+
+}
+
+.stats {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.stats > div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    background-color: white;
+    width: 25%;
+    margin: 10px;
+    box-shadow: 1px 1px 10px rgba(128, 128, 128, 0.507);
+    font-size: 1.3em;
+}
+
+.totalncharts{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.totalncharts > * {
+    width: 50%;
+}
+
+.totalncharts .totalsalesthisweek{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    background-color: rgb(42, 57, 83);
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 1px 1px 20px rgba(128, 128, 128, 0.507);
+    font-size: 1.3em;
+}
+.dashboardicons{
+    font-size: 2.5em;
+    border: 2px solid white;
+    text-align: center;
+}

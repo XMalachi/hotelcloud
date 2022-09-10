@@ -1,0 +1,107 @@
+.services{
+    padding: 6rem 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: black; */
+    
+}
+
+.servicesContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.servicesContainer > *{
+    width: 50%;
+    margin: 20px;
+}
+
+.servicesDescription h4, .servicesDescription h2{
+    text-align: center;
+}
+.servicesDescription h2{
+    color: rgb(161, 135, 111);
+    font-size: 3em;
+    margin: 0;
+}
+.servicesDescription h4{
+    color: rgba(161, 135, 111, 0.685);
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 0.9em;
+}
+.servicesDescription ul{
+    list-style-type: none;
+    line-height: 2;
+    text-align: left;
+    padding: 0;
+}
+.servicesDescription hr{
+    width: 20%;
+    border: 1px solid rgba(161, 135, 111, 0.685);
+}
+
+.service > *{
+    text-align: center;
+    margin-top: 20px;
+}
+.servicesDescription ul .logo{
+    font-size: 1.2em;
+    color: rgb(161, 135, 111);
+}
+.service .serviceHeader{
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+.images{
+
+    position: relative;
+    top: -250px;
+
+}
+.images div{
+    width: 100%;
+    height: 100%;
+    /* top: 0; */
+}
+.images img{
+    width: 60%;
+    animation: fadeInAnimation ease-in-out 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.images .imageOne img{
+    z-index: 1;
+    right: 0;
+    position: absolute;
+    top: 0;
+    height: 469px;
+}
+
+.images .imageTwo img{
+    position: absolute;
+    top: 30px;
+    height: 469px;
+}
+
+.images .imageThree{
+    height: 38%;
+}
+.images .imageThree img{
+    z-index: 1;
+    /* right: ; */
+    position: absolute;
+    top: 300px;
+}

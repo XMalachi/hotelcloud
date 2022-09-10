@@ -1,0 +1,46 @@
+.campaignOverview{
+    background-color: white;
+    /* width: 50%; */
+    padding: 5px 15px;
+    border-radius: 20px;
+    color: rgb(95, 77, 43);
+}
+.campaignOverview .campaignOverviewHead{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.campaignOverview .campaignOverviewHead h5{
+    color: rgba(95, 77, 43, 0.493);
+}
+
+.campaignOverview .campaignOverviewHead h3{
+    color: rgb(42, 57, 83);
+}
+
+.campaignStats{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1px 20px;
+}
+.campaignStats > div{
+    text-align: center;
+}
+
+.downloadPdf button {
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s ease-in;
+}
+
+.downloadPdf button:hover {
+    background-color: rgba(211, 181, 125, 0.616);
+}
+
+.downloadbtn{
+    color: rgba(165, 42, 42, 0.938)
+}

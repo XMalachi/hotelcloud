@@ -1,0 +1,38 @@
+.communityContainer{
+    position: relative;
+}
+
+.twitterCommunity{
+    grid-area: twitter;
+}
+
+.weatherCommunity{
+    grid-area: weather;
+}
+
+.topFourCommunity{
+    grid-area: topFour;
+
+}
+.topFourrooms{
+    grid-area: topFourrooms;
+}
+
+
+.calender{
+    grid-area: calender;
+}
+
+.communityContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+    grid-template-areas: 
+    'twitter  weather topFour'
+    'topFourrooms topFourrooms topFour'
+    '. calender calender'
+    ;
+    margin: 50px 0;
+
+}
+

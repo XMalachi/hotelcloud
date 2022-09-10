@@ -1,0 +1,37 @@
+.bookinglistTable{
+    background-color: white;
+    padding: 20px;
+    margin-top: 2rem;
+    border-radius: 20px;
+    color: rgb(42, 57, 83);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.bookinglistTable h2{
+    text-align: left;
+}
+
+.table{
+    border-collapse: collapse;
+}
+
+.bookinglistTable .tbody tr{
+    cursor: pointer;
+}
+
+.bookinglistTable .tbody .odd{
+    background-color: rgba(42, 57, 83, 0.425);
+    color: white;
+}
+.bookinglistTable .tbody tr:hover{
+    background-color: rgb(42, 57, 83);
+    color: white;
+}
+
+.bookinglistTable .tbody tr td{
+    text-align: center;
+    font-size: 0.9em;
+    padding: 5px 10px;
+
+}

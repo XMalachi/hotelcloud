@@ -1,0 +1,69 @@
+nav a{
+    text-decoration: none;
+    color: black;
+}
+.headerNav{
+    background-color: rgba(255, 248, 232, 0.315);
+    margin: 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+}
+
+.headerNav nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* flex: 1; */
+}
+.hotel{
+    color: black;
+}
+.logoGroup{
+    /* border: 5px solid rgb(161, 135, 111); */
+    display: flex;
+    align-items: center;
+    /* padding: 10px 20px; */
+}
+.cloud, .logo{
+    color: rgb(161, 135, 111);
+}
+nav > *  {
+    margin: 0 60px;
+}
+.pageNavs{
+    flex: 2;
+}
+.pageNavs > *{
+    margin-right: 30px;
+    transition: 0.5s ease-in;
+    font-size: 1.1em;
+}
+.pageNavs > *:hover{
+    color: rgb(161, 135, 111);
+    letter-spacing: 1px;
+}
+.bookingBtn{
+    display: flex;
+    align-items: center;
+}
+.booking{
+    background-color: rgb(161, 135, 111);
+    border: none;
+    outline: none;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-right: 30px;
+}
+.booking:hover{
+    background-color: rgb(126, 118, 111);
+}
+.dashboardicon{
+    font-size: 1.7em;
+    color: rgb(161, 135, 111);
+}
+.dashboardicon:hover{
+    color: rgb(126, 118, 111);
+}

@@ -1,0 +1,51 @@
+.sidebarContainer{
+    position: fixed;
+    height: 100%;
+    background-color: rgb(42, 57, 83);
+    left: 0;
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: whitesmoke;
+}
+a{
+    text-decoration: none;
+}
+.sidebarContainer .logoGroup{
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+}
+.sidebarContainer .cloud, .logo{
+    color: rgb(161, 135, 111);
+}
+.sidebarContainer .hotel{
+    color: white;
+}
+.sidebarContainer .admin{
+    /* display: inline-block; */
+    text-align: center;
+}
+.sidebarContainer .admin img{
+    border-radius: 50%;
+}
+.sidebarContainer .sidebarHr{
+    border: 1px solid rgb(161, 135, 111);
+}
+
+.sidebarContainer .dashboardactivities{
+    margin-top: 20px;
+}
+.sidebarContainer .dashboardactivities div{
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.sidebarContainer .dashboardactivities div > *{
+    color: whitesmoke;
+    font-size: 2rem;
+}
+.sidebarContainer .dashboardactivities div > *:hover{
+    color: rgb(161, 135, 111);
+}

@@ -1,0 +1,39 @@
+nav a{
+    text-decoration: none;
+    color: white;
+}
+.footer  nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    margin: 0;
+}
+.logoGroup{
+    display: flex;
+    align-items: center;
+}
+
+.cloud, .logo{
+    color: rgb(161, 135, 111);
+}
+.footerhotel{
+    color: white;
+}
+
+nav > *  {
+    margin: 0 80px;
+}
+
+.navs > *{
+    margin-right: 50px;
+    transition: 0.5s ease-in;
+    font-size: 1.1em;
+}
+.navs > *:hover{
+    color: rgb(161, 135, 111);
+}
+.tradeMark h3{
+    color: white;
+    
+}

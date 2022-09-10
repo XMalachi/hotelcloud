@@ -1,0 +1,23 @@
+.weatherContainer{
+    background-image: linear-gradient(to top, rgba(0,0,0,0.3) 50%, rgba(0,0,0,0.3) 20%), url(../../../images/weatherbg.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    height: 400px;
+    text-align: center;
+    color: white;
+}
+.weatherContainer .weatherContainerHeader{
+    background-color: rgba(128, 128, 128, 0.288);
+    margin: 0;
+    padding: 0.5rem;
+    color: white;
+}
+.weatherContainerInner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 80%;
+    font-size: 1.4rem;
+}

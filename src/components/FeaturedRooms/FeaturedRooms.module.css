@@ -1,0 +1,107 @@
+.featuredRoomsGroup{
+    padding: 0;
+    padding: 90px 50px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.featuredRoomsGroup hr{
+    width: 20%;
+    border: 1px solid rgba(161, 135, 111, 0.685);
+}
+.header{
+    font-size: 3rem;
+    color: rgba(161, 135, 111, 0.685);
+}
+
+.featuredrooms{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 0rem;
+    
+    flex-wrap: nowrap;
+}
+.featuredrooms a{
+    width: 30%;
+    margin: 20px;
+    background-color: black;
+    color: black;
+    text-decoration: none;
+    position: relative;
+    transition: 0.5s ease-in;
+    animation: check ease-in-out 1s;
+    animation-iteration-count: 1;
+    overflow: hidden;
+}
+.image{
+    width: 100%;
+    height: 270px;
+    overflow: hidden;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+    transition: 0.5s all ease-in;
+
+}
+
+.featureDecription{
+    background-color: white;
+    padding: 2rem;
+}
+
+.featureDecription> *{
+    padding: 5px;
+}
+
+.name h3{
+    margin: 0;
+    text-transform: uppercase;
+    
+}
+
+.priceTag{
+    color: rgba(46, 116, 139, 0.445);
+    font-weight: 700;
+}
+
+.checkFeaturesBtn{
+    background-color: rgba(0, 0, 0, 0.596);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 66%;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+.checkFeaturesBtn:hover{
+    color: rgb(238, 216, 196);
+}
+@keyframes check {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.featuredrooms a:hover .checkFeaturesBtn{
+    z-index: 1;
+}
+.featuredrooms a:hover .image img{
+   transform: scale(1.2);
+}
+
+
+@media screen and (max-width: 1000px) {
+    .featuredrooms{
+        flex-direction: column;
+    }
+    .featuredrooms a{
+        width: 70%;
+    }
+}

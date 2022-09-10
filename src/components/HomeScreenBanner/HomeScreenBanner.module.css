@@ -1,0 +1,165 @@
+.intro{
+    background-image: linear-gradient(to top, rgba(0,0,0,0.4) 50%, rgba(0,0,0,0.4) 20%), url(../../images/defaultBcg123.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 86vh;
+    display: flex;
+    justify-content: center;
+    padding: 0 100px;
+    align-items: center;
+}
+
+.introContent{
+    width: 50%;
+    text-align: left;
+    color: white;
+}
+
+.introContent .hr{
+    width: 100%;
+    border: 1px solid rgba(245, 211, 189, 0.836);
+}
+
+.intro form{
+    width: 50%;
+    text-align: center;
+    
+}
+
+/* reservation styles */
+.reservation{
+    width: 50%;
+    margin: 0 auto;
+    background-color: rgba(128, 128, 128, 0.514);
+    padding: 20px;
+}
+.reservation h3{
+    color: white;
+}
+.reservation input, .reservation select, .reservation button {
+    font-family: 'Raleway', sans-serif;
+    outline: none;
+    border: none;
+    font-size: 1em;
+    margin: 20px 0;
+    cursor: pointer;
+}
+.reservation select, .reservation button {
+    width: 100%;
+    
+}
+.reservation input{
+    padding:8px;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+.reservation button:hover{
+    background-color: rgb(126, 118, 111);
+}
+.introContent > *{
+    margin-bottom: 30px;
+}
+
+.introContent .introOffer h3{
+    letter-spacing: 5px;
+}
+
+.intro h1{
+    /* margin-top: 0; */
+    font-size: 4em;
+    height: 200px;
+    /* color: cho; */
+    /* transition: 0.5s linear ease-in-out; */
+    /* background-color: blue; */
+    animation: fadeInAnimation ease-in-out 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.theme{
+    color: chocolate;
+    font-size: 1.7em;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+.introContent a{
+    text-decoration: none;
+    background-color: rgb(161, 135, 111);
+    color: black;
+    padding: 10px 30px;
+    font-size: 1.5em;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.5s ease-in;
+    letter-spacing: 3px;
+}
+.introContent a:hover{
+    background-color: rgba(201, 196, 192, 0.5);
+}
+.checkBtn{
+    background-color: rgb(161, 135, 111);
+    border: none;
+    outline: none;
+    color: white;
+    padding: 10px 20px;
+}
+
+@media screen and (max-width: 1000px) {
+    .intro {
+        flex-direction: column;
+     }
+     .intro > * {
+        margin-bottom: 4rem;
+     }
+     .introContent{
+         width: 100%;
+     }
+ 
+     .introContent .hr{
+         width: 100%;
+         border: 1px solid rgba(245, 211, 189, 0.836);
+     }
+    .introContent h1{
+        font-size: 4em;
+    }
+    
+    .intro form{
+        width: 100%;
+        text-align: center;
+        
+    }
+    
+    /* reservation styles */
+    .reservation{
+        width: 70%;
+    }
+    .reservation h3{
+        color: white;
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+    .intro{
+       flex-direction: column;
+    }
+    .introContent{
+        width: 100%;
+    }
+
+    .introContent .hr{
+        width: 100%;
+        border: 1px solid rgba(245, 211, 189, 0.836);
+    }
+}
+
+

@@ -1,0 +1,102 @@
+.topfourRoomsGroup{
+    /* margin: 5rem 2rem; */
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+
+}
+.topfourRoomsGroup hr{
+    width: 20%;
+    border: 1px solid rgba(161, 135, 111, 0.685);
+}
+.topfourheader{
+    font-size: 2rem;
+    color: rgba(161, 135, 111, 0.685);
+    margin: 0;
+}
+
+.topFourRooms{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0rem;
+    
+    flex-wrap: wrap;
+}
+.topFourRooms a{
+    width: 48%;
+    margin: 5px;
+    background-color: black;
+    color: black;
+    text-decoration: none;
+    position: relative;
+    transition: 0.5s ease-in;
+    animation: check ease-in-out 1s;
+    animation-iteration-count: 1;
+    overflow: hidden;
+}
+.topFourImage{
+    width: 100%;
+    height: 270px;
+    overflow: hidden;
+}
+.topFourImage img{
+    width: 100%;
+    height: 100%;
+    transition: 0.5s all ease-in;
+
+}
+
+.topFourDecription{
+    background-color: white;
+    padding: 2rem;
+}
+
+.topFourDecription> *{
+    padding: 5px;
+}
+
+.topFourName h3{
+    margin: 0;
+    text-transform: uppercase;
+    
+}
+
+.topFourPriceTag{
+    color: rgba(46, 116, 139, 0.445);
+    font-weight: 700;
+}
+
+.checkTopFourBtn{
+    background-color: rgba(0, 0, 0, 0.596);
+    color: white;
+    /* padding: 15px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 66%;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    /* transition: check 0.5s ease-in-out; */
+    
+}
+.checkTopFourBtn:hover{
+    color: rgb(238, 216, 196);
+}
+@keyframes check {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.topFourRooms a:hover .checkTopFourBtn{
+    z-index: 1;
+}
+.topFourRooms a:hover .topFourImage img{
+   transform: scale(1.2);
+}

@@ -1,0 +1,55 @@
+.dashboardnavbarContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    box-shadow: 5px 0px 10px black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+
+}
+.dashboardnavbarContainer .left{
+    
+    background-color: rgb(42, 57, 83);
+    padding: 1.1rem 2rem;
+    width: 10.7%;
+}
+.dashboardnavbarContainer .right{
+    background-color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+}
+/* .dashboardnavbarContainer .right > span{
+   
+} */
+.dashboardhomebtn, .dashboardtogglebtn{
+    color: rgb(161, 135, 111);
+    font-size: 1.6rem;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.dashboardhomebtn:hover, .dashboardtogglebtn:hover{
+    color: rgba(110, 90, 70, 0.541);
+}
+.dashboardnavbarContainer .right >  span{
+    margin-right: 2rem;
+    cursor: pointer;
+}
+.dashboardnavbarContainer .right >  span > *:hover{
+    color: rgb(161, 135, 111);
+}
+
+.dashboardnavbarContainer .right .admin{
+    display: flex;
+    align-items: center;
+}
+.admin img{
+    border-radius: 50%;
+    margin-left: 10px;
+}

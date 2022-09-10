@@ -1,0 +1,50 @@
+.topFourContainer{
+    background-color: rgba(168, 168, 168, 0.788);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem 1rem;
+    
+}
+.topFourContainer .topFourContainerHeader{
+    margin: 0;
+}
+
+.topFourContainer .topFour{
+    line-height: 1.5;
+}
+
+.topFourContainer .topFour .topFourAll{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+    box-sizing: border-box;
+    /* width: 100%; */
+}
+.topFourContainer .topFour .topFourAll > *{
+    width: 50%;
+}
+
+.topFourContainer .topFourAllTxt{
+    color: rgb(23, 31, 34);
+    word-wrap: break-word;
+}
+
+/* .topFourContainer .topFour > *{
+    width: 20%;
+    margin: 1rem;
+    padding: 1rem;
+    box-shadow: 1px 1px 5px black;
+    box-sizing: border-box;
+}
+
+.topFourContainer .topFour .topFourEven{    
+    background-color: rgba(42, 57, 83, 0.425);
+    color: white;
+}
+
+.topFourContainer .topFour .topFourOdd{
+    background-color: #eee;
+} */

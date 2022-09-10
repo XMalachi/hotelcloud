@@ -1,0 +1,31 @@
+.dashboardQuickSearch{
+    display: flex;
+    align-items: center;
+}
+.dashboardQuickSearch .dashboardheader {
+    margin-right: 30px;
+}
+
+.dashboardQuickSearch .dashboardheader h2{
+    color: rgb(42, 57, 83);
+}
+
+.dashboardQuickSearch .dashboardsearchgroup{
+    position: relative;
+
+}
+.dashboardQuickSearch .dashboardsearchgroup .dashboardsearchinput{
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    color: rgba(128, 128, 128, 0.603);
+    font-family: 'Raleway', sans-serif;
+}
+
+.dashboardQuickSearch .dashboardsearchgroup .dashboardsearch{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: rgba(128, 128, 128, 0.603);
+}
