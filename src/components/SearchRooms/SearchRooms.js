@@ -9,7 +9,7 @@ const SearchRooms = () => {
 
     let availableTypes =   new Set(rooms.map((room) => room.type))
     availableTypes = ['all', ...availableTypes]
-    // console.log(availableTypes)
+
     const typeOptions = availableTypes.map((option, i) => (<option key={i} value={option}>{option}</option>))
 
     let availableCapacity = new Set(rooms.map ((room) => room.capacity))

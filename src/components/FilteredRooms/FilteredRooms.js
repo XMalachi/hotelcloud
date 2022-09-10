@@ -6,7 +6,7 @@ import { BsBoxArrowInRight } from "react-icons/bs";
 
 
 const FilteredRooms = () => {
-    const {rooms, featuredRooms, filteredRooms } =  useContext(GlobalContext)
+    const {rooms, filteredRooms } =  useContext(GlobalContext)
     // console.log('room featured', featuredRooms)
 
     console.log('room filtered', filteredRooms)

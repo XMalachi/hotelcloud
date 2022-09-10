@@ -5,7 +5,7 @@ import './BookingList.css'
 
 function BookingList() {
 
-    const {rooms, type} = useContext(GlobalContext)
+    const {rooms} = useContext(GlobalContext)
     let availableTypes =   new Set(rooms.map((room) => room.type))
     availableTypes = [...availableTypes]
     // console.log(availableTypes)
