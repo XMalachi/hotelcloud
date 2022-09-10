@@ -20,7 +20,7 @@ const RoomScreen = () => {
       setRoom(rm)
      setLoading(false)
     }
-}, [slug])
+}, [slug, getSingleRoom, room])
 console.log(room)
 
   return (

@@ -23,6 +23,8 @@ const Provider = (props) => {
     console.log("the rooms length", state.rooms.length)
     useEffect(()  => {
         roomsArr()
+
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
 
 

@@ -81,21 +81,21 @@ const Services = () => {
             <div className={styles.images}>
                 {statePortrait.map((pic, index) => (
                     <div key={index} className={styles.imageOne}>
-                        {text.count === index && <img src={pic} alt='the image' />}
+                        {text.count === index && <img src={pic} alt='the first ' />}
                         {/* {console.log(pic , 'from pictures')} */}
                     </div>
                 ))}
                 
                 {stateLandscape.map((picture, index) => (
                     <div key={index} className={styles.imageThree}>
-                        {pic.read === index && <img src={picture} alt='the image' />}
+                        {pic.read === index && <img src={picture} alt='the second ' />}
                         {/* {console.log(pic , 'from pictures')} */}
                     </div>
                 ))}
 
                 {statePortraitTwo.map((pic, index) => (
                     <div key={index} className={styles.imageTwo}>
-                        {text.count === index && <img src={pic} alt='the image' />}
+                        {text.count === index && <img src={pic} alt='the third' />}
                         
                     </div>
                 ))}

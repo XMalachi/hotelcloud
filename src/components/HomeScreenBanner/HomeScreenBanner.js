@@ -9,7 +9,8 @@ const Banner = () => {
     availableTypes = ['Room Type','all', ...availableTypes]
     const typeOptions = availableTypes.map((option, i) => (<option key={i} value={option}>{option}</option>))
 
-    const [state, setState] = useState(['Luxurios Rooms', 'We Put comfort in comfort',  'Just Sit Back and Relax'])
+    const state = ['Luxurios Rooms', 'We Put comfort in comfort',  'Just Sit Back and Relax']
+    // const [state, setState] = useState([])
     const [text, setText] =  useState({count: 0})
 
     // setTimeout()
